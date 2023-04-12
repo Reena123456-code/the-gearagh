@@ -75,3 +75,9 @@ h1, h2 {
     float: left;
 }
 
+#examiner-article {
+    width: 66%;
+    float: right;
+    margin-right: 15px;
+}
+
