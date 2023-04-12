@@ -9,4 +9,22 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    color: #3a3a3a;
+    background-color: #e6e6e6;
 }
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: 'Black Han Sans', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+
