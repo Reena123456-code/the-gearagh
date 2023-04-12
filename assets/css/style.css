@@ -95,6 +95,14 @@ span {
     font-weight: 600;
 }
 
+/* footer */
+
+footer {
+    height: 150px;
+    background-color: #333333;
+    color:
+}
+
 h5 {
     text-transform: uppercase;
 }
@@ -104,6 +112,24 @@ h6 {
 }
 
 /* footer */
+
 footer {
-    
+    height: 160px;
+
+}
+
+.social {
+    text-align: center;
+
+}
+
+.social > li {
+    display: inline;
+}
+
+.social i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #333333;
 }
