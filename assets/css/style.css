@@ -65,6 +65,13 @@ h1, h2 {
     width: 100%;
     background: url('../images/gearagh-2.jpg')no-repeat center center;
     overflow: hidden;
+    margin-bottom: 15px;
 }
 
+#examiner-image {
+    height: 900px;
+    width: 100%;
+    background: url('../images/The\ Cork\ Examiner\,\ Wednesday\,\ 24\ October\ 1956\ \(page\ 7\)\ lower.jpg')no-repeat;
+    float: left;
+}
 
