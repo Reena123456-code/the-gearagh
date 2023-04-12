@@ -65,19 +65,45 @@ h1, h2 {
     width: 100%;
     background: url('../images/gearagh-2.jpg')no-repeat center center;
     overflow: hidden;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
+
+/* article and style */
 
 #examiner-image {
     height: 900px;
     width: 100%;
     background: url('../images/The\ Cork\ Examiner\,\ Wednesday\,\ 24\ October\ 1956\ \(page\ 7\)\ lower.jpg')no-repeat;
     float: left;
+    margin-left: 15px;
 }
 
 #examiner-article {
-    width: 66%;
+    width: 70%;
     float: right;
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
 }
 
+p {
+    font-size: 15px;
+    text-indent: 30px;
+}
+
+span {
+    font-weight: 600;
+}
+
+h5 {
+    text-transform: uppercase;
+}
+
+h6 {
+    font-style: italic;
+}
+
+/* footer */
+footer {
+    
+}
