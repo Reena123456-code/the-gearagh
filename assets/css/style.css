@@ -34,9 +34,28 @@ h1, h2 {
     letter-spacing: 3px; 
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
     list-style-type: none;
     text-transform: uppercase;
     float: right;
-    margin-right: 20px;
+    margin-right: 15px;
 }
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom:  1px solid #333333;
+}
+
+.active {
+    border-bottom:  1px solid #333333;
+}
+
+
