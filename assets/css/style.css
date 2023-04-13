@@ -121,7 +121,7 @@ hr {
 }
 
 footer {
-    height: 160px;
+    height: 50px;
 }
 
 ul.social {
@@ -155,4 +155,10 @@ ul.social {
     margin-left: 20px;
     list-style-type: disc;
     color: #3a3a3a;
+}
+
+/* wildlife and conservation style */
+
+.wildlife { 
+    text-align: center;
 }
