@@ -65,7 +65,7 @@ h1, h2 {
     width: 100%;
     background: url('../images/gearagh-2.jpg')no-repeat center center;
     overflow: hidden;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 /* article and style */
@@ -78,12 +78,20 @@ h1, h2 {
     margin-left: 15px;
 }
 
+/* text for article */
+
 #examiner-article {
     width: 70%;
     float: right;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     text-align: left;
+    color: #333333;
+}
+
+.article {
+    color: #333333;
+    font-size: 26px;
 }
 
 p {
@@ -95,32 +103,33 @@ span {
     font-weight: 600;
 }
 
-/* footer */
-
-footer {
-    height: 150px;
-    background-color: #333333;
-    color:
-}
-
 h5 {
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 h6 {
     font-style: italic;
+    font-size: 14px;
+    color: #3a3a3a;
 }
 
 /* footer */
 
+hr {
+    border: 2px solid #3a3a3a;
+}
+
 footer {
     height: 160px;
+}
 
+ul.social {
+    background-color: #333333;
 }
 
 .social {
     text-align: center;
-
 }
 
 .social > li {
@@ -131,5 +140,12 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #333333;
+    color: #e6e6e6;
+}
+
+/* history */
+
+.gearagh {
+    text-align: center;
+    margin: 10px;
 }
