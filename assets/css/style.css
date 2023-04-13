@@ -114,10 +114,49 @@ h6 {
     color: #3a3a3a;
 }
 
+/* history */
+
+.gearagh {
+    text-align: center;
+    margin: 10px;
+}
+
+#history {
+    text-align: left;
+    margin-left: 20px;
+    list-style-type: disc;
+    color: #3a3a3a;
+}
+
+
+
+/* wildlife and conservation style */
+
+.wildlife { 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.left {
+    float: left;
+    width: 70%;
+    display: block;
+    color: #e6e6e6;
+}
+
+.right {
+    float: right;
+    width: 70%;
+    display: block;
+    color: #e6e6e6;
+}
+
+
+
 /* footer */
 
 hr {
-    border: 2px solid #3a3a3a;
+    border: 2px solid #f51919;
 }
 
 footer {
@@ -137,37 +176,11 @@ ul.social {
 }
 
 .social i {
-    font-size: 160%;
+    font-size: 100%;
     margin: 1%;
     padding: 5%;
     color: #e6e6e6;
 }
 
-/* history */
 
-.gearagh {
-    text-align: center;
-    margin: 10px;
-}
 
-#history {
-    text-align: left;
-    margin-left: 20px;
-    list-style-type: disc;
-    color: #3a3a3a;
-}
-
-/* wildlife and conservation style */
-
-.wildlife { 
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
