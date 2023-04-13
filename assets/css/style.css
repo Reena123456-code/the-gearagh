@@ -139,16 +139,16 @@ h6 {
 
 .left {
     float: left;
-    width: 70%;
-    display: block;
-    color: #e6e6e6;
+    width: 75%;
+    height: 150px;
+    display: inline;
 }
 
 .right {
     float: right;
-    width: 70%;
-    display: block;
-    color: #e6e6e6;
+    width: 75%;
+    height: 150px;
+    display: inline;
 }
 
 
