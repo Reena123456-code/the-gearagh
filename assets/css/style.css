@@ -151,6 +151,8 @@ ul.social {
 }
 
 #history {
+    text-align: left;
+    margin-left: 20px;
     list-style-type: disc;
     color: #3a3a3a;
 }
