@@ -149,3 +149,8 @@ ul.social {
     text-align: center;
     margin: 10px;
 }
+
+#history {
+    list-style-type: disc;
+    color: #3a3a3a;
+}
