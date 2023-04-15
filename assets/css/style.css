@@ -77,21 +77,23 @@ h2 {
     width: 100%;
     background: url('../images/cork-examiner.jpg')no-repeat;
     float: left;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 /* text for article */
 
-#examiner-article {
+#article {
     width: 70%;
     float: right;
     margin-right: 20px;
-    margin-left: 20px;
-    text-align: left;
+    margin-right: 20px;
+    text-align: left; 
+    background-color: #e6e6e6;
     color: #333333;
 }
 
 .article {
+    background-color: #e6e6e6;
     color: #333333;
     font-size: 26px;
 }
@@ -159,11 +161,13 @@ h3 {
 /* footer */
 
 hr {
-    border: 2px solid #f51919;
+    border: 1px solid #333333;
 }
 
 footer {
     height: 50px;
+    position: absolute;
+    overflow: hidden;
 }
 
 ul.social {
@@ -179,11 +183,41 @@ ul.social {
 }
 
 .social i {
-    font-size: 100%;
+    font-size: 150%;
     margin: 1%;
     padding: 5%;
     color: #e6e6e6;
 }
+
+/* media Query */
+
+/* for larger to medium screen sizes  1400 wide and below*/
+@media screen and (max-width: 1400px) {
+    #examiner-image {
+        visibility: hidden;
+    }
+
+    #article {
+        width: 95%;
+        height: 900px;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        text-align: center;
+        float: none;
+        display: block;
+        visibility: visible;
+    }
+}
+
+/* medium and small screen sizes */
+@media screen and (max-width: 700px) {
+    #logo {
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+    
 
 
     
