@@ -87,7 +87,7 @@ h2 {
     float: right;
     margin-right: 20px;
     margin-right: 20px;
-    text-align: left; 
+    text-align: left;
     background-color: #e6e6e6;
     color: #333333;
 }
@@ -215,9 +215,16 @@ ul.social {
         text-align: center;
         text-decoration: none;
     }
-}
 
-    
+    .wild-1, .wild-2 {
+        display: block;
+    }
+    div.wild-1 > p, div.wild-2 > p {
+        text-indent: 0;
+        text-align: left;
+        width: 300px;
+    }
 
-
-    
+    footer {
+        width: 100%;
+    }
