@@ -1,108 +1,50 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# THE GEARAGH
 
-Welcome Reena123456-code,
+Welcome! [The Gearagh](https://github.com/Reena123456-code/the-gearagh)
+This site hopes to help people to get to know the history of the Gearagh and more about the wildlife and conservation that is there.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Navigation bar
+The navigation bar allows the user to go easily between home, history and wildlife pages. When you are in a page the page link on the navigation bar is underlined to tell you which page your on.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Landing Page images 
+The leading image was taken was James O'Driscoll Photography.
+(copyright holder)
 
-## Gitpod Reminders
+## Examiner Section
+The Examiner section is a the article written in the Cork Examiner from 24 October 1956.
+I have typed this article alongside it for easy reading.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## History page
+The history page is an unordered list of hopefully useful information on the Gearagh.
 
-`python3 -m http.server`
+## Wildlife and conservation
+In a div with a h3 is another div which contains images and information side by side.
 
-A blue button should appear to click: _Make Public_,
+## Testing
+I tryed using flexbox, flex  and flex-wrap. I used dispay flex but I had problem getting it to wrap and reverse wrap. So I have tried using bits.  
 
-Another blue button should appear to click: _Open Browser_.
+## Validitor testing
+### HtML and CSS
+Showed that ! had no lang added to my html at the start.
+Which I had in already.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Footer
+Icons from font-awesome
 
-A blue button should appear to click: _Make Public_,
+## Credits 
+With thanks to the Code Institute  for being so understanding.
+Thanks to Lauren-Nicole my Mentor for your help.
+Thanks to Wikipedia.com  for wildlife photos and other information https://www.wikipedia.org/
+Thanks to James O'Driscoll of https://www.facebook.com/jamesodriscollpictures/ for the fabulous photo for the home page and the one in images that I didn't have space to use.
+Thanks to https://fontawesome.com/
 
-Another blue button should appear to click: _Open Browser_.
+## Deployment 
+The site was deployed by GITHUB pages.
+Go to settings in github repository.
+Go to pages and select main branch.
+Once selected the page will automatically refresh and deploy.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The live link can be found at https://reena123456-code.github.io/the-gearagh/index.html
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
