@@ -216,10 +216,13 @@ ul.social {
         text-decoration: none;
     }
 
-    .wild-1, .wild-2 {
+    .wild-1,
+    .wild-2 {
         display: block;
     }
-    div.wild-1 > p, div.wild-2 > p {
+
+    div.wild-1>p,
+    div.wild-2>p {
         text-indent: 0;
         text-align: left;
         width: 300px;
